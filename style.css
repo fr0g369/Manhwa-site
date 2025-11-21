@@ -60,3 +60,10 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/* Apenas imagens dentro de capítulos */
+main.chapter img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
