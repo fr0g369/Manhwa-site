@@ -76,3 +76,9 @@ main.chapter img {
   margin: 0 auto;
 }
 
+main.chapter {
+  width: 100%;
+  box-sizing: border-box; /* evita overflow */
+}
+
+
