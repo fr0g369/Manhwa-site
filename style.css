@@ -68,17 +68,16 @@ html, body {
   width: 100%;
 }
 
-/* Apenas imagens dentro de capítulos */
 main.chapter img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  width: 100%;      /* preenche toda a largura do container */
+  height: auto;     /* mantém proporção */
+  display: block;   /* remove espaço em linha */
 }
 
 main.chapter {
   width: 100%;
   box-sizing: border-box; /* evita overflow */
 }
+
 
 
