@@ -60,6 +60,14 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+/* Remove margens e padding padrão do navegador */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 /* Apenas imagens dentro de capítulos */
 main.chapter img {
   max-width: 100%;
@@ -67,3 +75,4 @@ main.chapter img {
   display: block;
   margin: 0 auto;
 }
+
