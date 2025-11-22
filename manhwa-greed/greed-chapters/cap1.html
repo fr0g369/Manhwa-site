@@ -4,19 +4,60 @@
   <meta charset="UTF-8">
   <title>Greed - Capítulo 1</title>
   <link rel="stylesheet" href="../../style.css">
+
+  <style>
+    /* Estilo extra só para melhorar os botões */
+    .chapter-nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .chapter-nav a {
+      flex: 1;
+      text-align: center;
+      padding: 12px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      border: 1px solid #444;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .chapter-nav a:hover {
+      background: #333;
+      transform: scale(1.03);
+    }
+  </style>
 </head>
+
 <body>
+
   <header>
     <h1>Greed - Capítulo 1</h1>
     <nav>
-      <a href="../index.html">Voltar</a>
-      <a href="cap2.html">Próximo</a>
+      <a href="../index.html">Voltar aos capítulos</a>
+      <a href="../../index.html">Voltar aos Manhwas</a>
     </nav>
   </header>
 
   <main class="chapter">
+
+    <!-- SUAS IMAGENS -->
     <img src="https://envs.sh/-TF.jpg" alt="Página 1">
     <img src="https://envs.sh/-Tb.jpg" alt="Página 2">
+
+    <!-- BOTÕES DE NAVEGAÇÃO ENTRE CAPÍTULOS -->
+    <div class="chapter-nav">
+      <a href="#" style="opacity:0.5; pointer-events:none;">Anterior</a>
+      <a href="cap2.html">Próximo</a>
+    </div>
+
   </main>
+
 </body>
 </html>
